@@ -1,3 +1,3 @@
 return {
-  "ekalinin/Dockerfile.vim",
+  { "ekalinin/Dockerfile.vim" },
 }

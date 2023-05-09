@@ -1,3 +1,3 @@
 return {
-  "sudormrfbin/cheatsheet.nvim",
+  { "sudormrfbin/cheatsheet.nvim" },
 }
