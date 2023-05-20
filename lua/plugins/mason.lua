@@ -1,17 +1,17 @@
 return {
-    {
-        "williamboman/mason.nvim",
-        opts = {
-          ensure_installed = {
-            "stylua",
-            "shellcheck",
-            "shfmt",
-            "gopls",
-						"php-cs-fixer",
-						"phpactor",
-						"vetur-vls",
-						"prettier",
-          },
-        },
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "stylua",
+        "shellcheck",
+        "shfmt",
+        "gopls",
+        "php-cs-fixer",
+        "phpactor",
+        "vue-language-server",
+        "prettier",
       },
+    },
+  },
 }
