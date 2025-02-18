@@ -8,8 +8,10 @@ return {
       provider = "openai",
       auto_suggestions_provider = "openai",
       openai = {
-        endpoint = "https://api.deepseek.com/v1", -- use deepseek instead
-        model = "deepseek-chat",
+        -- endpoint = "https://api.deepseek.com/v1", -- use deepseek instead
+        -- model = "deepseek-chat",
+        endpoint = "http://192.168.9.100:3000/api", -- use deepseek instead
+        model = "deepseek-r1:32b",
         timeout = 30000, -- Timeout in milliseconds
         temperature = 0,
         max_tokens = 4096,

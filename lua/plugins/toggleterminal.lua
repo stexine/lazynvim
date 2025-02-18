@@ -19,7 +19,7 @@ return {
       },
     },
     keys = {
-      { "<leader><Tab>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
+      { "<leader>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
     },
   },
 }
