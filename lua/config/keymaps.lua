@@ -19,8 +19,8 @@ end
 -- Resize window using <ctrl+shift> arrow keys
 map("n", "<C-A-Up>", "<cmd>resize +2<cr>", { desc = "Increase window height" })
 map("n", "<C-A-Down>", "<cmd>resize -2<cr>", { desc = "Decrease window height" })
-map("n", "<C-A-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease window width" })
-map("n", "<C-A-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window width" })
+map("n", "<C-A-Left>", "<cmd>vertical resize +2<cr>", { desc = "Decrease window width" })
+map("n", "<C-A-Right>", "<cmd>vertical resize -2<cr>", { desc = "Increase window width" })
 
 -- split window
 map("n", "<leader>\\", "<cmd>vsplit<cr>", { desc = "Split Window Vertically" })

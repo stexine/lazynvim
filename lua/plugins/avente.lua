@@ -10,8 +10,15 @@ return {
       openai = {
         -- endpoint = "https://api.deepseek.com/v1", -- use deepseek instead
         -- model = "deepseek-chat",
-        endpoint = "http://192.168.9.100:3000/api", -- use deepseek instead
-        model = "deepseek-r1:32b",
+        -- endpoint = "http://192.168.9.100:3000/api", -- use sailner local instead
+        -- model = "deepseek-r1:32b",
+        -- endpoint = "https://api.lkeap.cloud.tencent.com/v1", -- use tencent openai api
+        -- model = "deepseek-r1",
+        -- endpoint = "https://dashscope.aliyuncs.com/compatible-mode/v1", -- use aliyun openai api
+        -- model = "deepseek-r1",
+        endpoint = "https://maas-api.cn-huabei-1.xf-yun.com/v1", -- use xunfei openai api
+        model = "xdeepseekr1",
+
         timeout = 30000, -- Timeout in milliseconds
         temperature = 0,
         max_tokens = 4096,
