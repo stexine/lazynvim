@@ -42,3 +42,6 @@ vim.keymap.set("t", "<C-k>", vim.cmd.wincmd("k"), opts)
 vim.keymap.set("t", "<C-l>", vim.cmd.wincmd("l"), opts)
 -- I map these binds to both terminal and insert mode like:
 -- vim.keymap.set({'t', 'i'}, '<C-h>', vim.cmd.wincmd("h"), opts)
+
+-- map U as redo in normal
+vim.keymap.set("n", "U", "<C-r>", opts)

@@ -11,6 +11,8 @@ return {
         "phpactor",
         "vue-language-server",
         "prettier",
+        "typescript-language-server",
+        "eslint_d",
       },
     },
   },
